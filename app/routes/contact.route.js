@@ -14,6 +14,6 @@ router.route("/favorite")
 router.route("/:id")
       .get(contacts.findOne)
       .put(contacts.update)
-      .delete(contacts.deleteAll);      
+      .delete(contacts.deleteAll);
 
 module.exports = router;
